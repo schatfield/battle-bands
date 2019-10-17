@@ -5,10 +5,10 @@
 
 // you can make this global variable equal to either 1 or zero, both are correct. It just depends what you want your first # to be. if you start at zero, your first number will be "1".  You could also set it to any # and increment or decrement (-- to count backwards) from anywhere. if we set bandNumber to "5" and decremented our first # on our list would be 4 and count backwards//
 
-let bandNumber = 5;
+let bandNumber = 0;
 
 const takeNumber = function(bandName) {
-    bandNumber--;
+    ++bandNumber;
     return `${bandNumber}.${bandName}`;
     
 } 
